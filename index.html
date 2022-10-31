@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    To Do List</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+<body>
+
+  <div class="todoList">
+    <div class="cover-img">
+      <div class="cover-inner">
+        <h3 id="dayName"><center>My To Do List</center></h3>
+      </div>
+    </div>
+
+    <div class="content">
+      <form class="add">
+        <input type="text" name="add" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+        <div class="input-buttons">
+          <a href="#0" class="add-todo">
+            <i class="fas fa-plus add plus-icon"></i>
+          </a>
+        </div>
+      </form>
+      <ul class="todos align">
+        <li>
+          <input type="checkbox" id="todo_4">
+          <label for="todo_4">
+            <span class="check"></span>
+            Hit the gym
+          </label>
+          <i class="far fa-trash-alt delete"></i>
+        </li> 
+
+        <li>
+          <input type="checkbox" id="todo_1">
+          <label for="todo_1">
+            <span class="check"></span>
+            Pay bills
+          </label>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+
+        <li>
+          <input type="checkbox" id="todo_2">
+          <label for="todo_2">
+            <span class="check"></span>
+            Meet George
+          </label>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+
+        <li>
+          <input type="checkbox" id="todo_3">
+          <label for="todo_3">
+            <span class="check"></span>
+            Buy eggs
+          </label>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+
+        <li>
+          <input type="checkbox" id="todo_4">
+          <label for="todo_4">
+            <span class="check"></span>
+            Read a book
+          </label>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+
+        <li>
+          <input type="checkbox" id="todo_4">
+          <label for="todo_4">
+            <span class="check"></span>
+            Organize office
+          </label>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body> 
+</html>
